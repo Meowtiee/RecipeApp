@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1">
+
+    <ImageView
+        android:id="@+id/im_logo"
+        android:layout_width="80dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_fullscreen" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_first"
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014">
+
+        <Button
+            android:id="@+id/btn_search_name"
+            style="@style/Button_menu"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:text="@string/btn_search_name"
+            app:backgroundTint="@color/beige"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_search_tag"
+            style="@style/Button_menu"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:text="@string/btn_search_tag"
+            app:backgroundTint="@color/beige"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_second"
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout_first"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_first">
+
+        <Button
+            android:id="@+id/btn_favourite"
+            style="@style/Button_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/btn_favourite"
+            app:backgroundTint="@color/brown"
+            android:textColor="@color/white1"/>
+
+        <Button
+            android:id="@+id/btn_folder"
+            style="@style/Button_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:text="@string/btn_my_folders"
+            app:backgroundTint="@color/orange"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_third"
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout_second"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout_second"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_second">
+
+        <Button
+            android:id="@+id/btn_all_recipe"
+            style="@style/Button_menu"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:text="@string/btn_all_recipe"
+            app:backgroundTint="@color/beige"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_add_recipe"
+            style="@style/Button_menu"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:text="@string/btn_add_recipe"
+            app:backgroundTint="@color/beige"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fourth"
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout_third"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout_third"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_third">
+
+        <Button
+            android:id="@+id/btn_advice"
+            style="@style/Button_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/btn_advice"
+            app:backgroundTint="@color/brown"
+            android:textColor="@color/white1" />
+
+        <Button
+            android:id="@+id/btn_random"
+            style="@style/Button_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/btn_random"
+            app:backgroundTint="@color/orange"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

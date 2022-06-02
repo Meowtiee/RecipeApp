@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/beige</item>
+        <item name="colorPrimaryDark">@color/brown</item>
+        <item name="colorAccent">@color/orange</item>
+
+    </style>
+
+    <style name="button_look">
+        <item name="android:textFontWeight">700</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/montserrat_alternates_500</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:text">@string/btn_look</item>
+    </style>
+
+    <style name="Button_menu" >
+        <item name="android:fontFamily">@font/amatic_sc_bold</item>
+        <item name="android:textSize">39sp</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="Search_view" >
+        <item name="android:fontFamily">@font/montserrat_alternates_500</item>
+        <item name="android:background">@drawable/search_bg</item>
+    </style>
+
+    <style name="tag_type_view">
+        <item name="android:fontFamily">@font/montserrat_alternates_500</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/tag_type_bg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tag_time_view">
+        <item name="android:fontFamily">@font/montserrat_alternates_500</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/tag_time_bg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tag_difficult_view">
+        <item name="android:fontFamily">@font/montserrat_alternates_500</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/tag_difficult_bg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Время готовить</string>
+
+    <!--Splash Screen-->
+    <string name="now">Сейчас</string>
+    <string name="time">Время</string>
+    <!--Buttons-->
+    <!--Main menu and recipe-->
+    <string name="btn_look">Посмотрим</string>
+    <string name="btn_search_name">Поиск по названию</string>
+    <string name="btn_search_tag">Поиск по тэгу</string>
+    <string name="btn_favourite">Избранные рецепты</string>
+    <string name="btn_my_folders">Мои папки рецептов</string>
+    <string name="btn_all_recipe">Все рецепты</string>
+    <string name="btn_add_recipe">Добавить свой рецепт</string>
+    <string name="btn_advice">Советы для улучшения навыков</string>
+    <string name="btn_random">Случайные рецепты</string>
+    <string name="btn_full_screen">Во весь экран</string>
+    <string name="btn_recalculate">Пересчитать</string>
+    <string name="portion">Порции</string>
+    <string name="ccal">Калории</string>
+    <string name="btn_change_recipe">Изменить полный рецепт</string>
+
+    <!--Recipe slider-->
+    <string name="Ingredients">Ингредиенты</string>
+    <string name="Recipe">Рецепт</string>
+    <string name="Cooking">Готовить</string>
+
+    <!--Tags-->
+
+    <string name="tag_difficult_easy">Простой</string>
+    <string name="tag_difficult_advanced">Средний</string>
+    <string name="tag_difficult_hard">Сложный</string>
+
+    <string name="tag_type_breakfast">Завтрак</string>
+    <string name="tag_type_soup">Суп</string>
+    <string name="tag_type_main_course">Второе блюдо</string>
+    <string name="tag_type_snack">Закуска</string>
+    <string name="tag_type_drink">Напитки</string>
+    <string name="tag_type_desert">Десерт</string>
+
+    <string name="tag_time_30">За 30 минут</string>
+    <string name="tag_time_60">За 30–60 минут</string>
+    <string name="tag_time_90">За 60–90 минут</string>
+    <string name="tag_time_more_90">Более 90 минут</string>
+
+    <!--Filter-->
+    <string name="filter_difficult">По сложности</string>
+    <string name="filter_type">По типу</string>
+    <string name="filter_time">По времени</string>
+    <string name="Recipes">Найденные рецепты</string>
+
+
+    <!--Hint-->
+    <string name="hint_search_name">Введите название рецепта</string>
+</resources>
